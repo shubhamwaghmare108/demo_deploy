@@ -34,7 +34,7 @@ value = st.slider("Select a value:", min_value=0, max_value=100, value=50)
 submit_button = st.button("Upload Folder")
 
 if st.button("Submit"):
-    st.switch_page("pages\\divert.py")
+    st.switch_page(path / "pages" / "divert.py")
     
 
 """st.text(f"Hello, {name}! Welcome to my Streamlit app!")
